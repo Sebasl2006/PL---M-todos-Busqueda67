@@ -9,7 +9,7 @@ public class App {
         MetodoBinario mb = new MetodoBinario( personas);
 
         MetodoBinario.ordenamiento(personas);
-        mostrar.showMessage("Arreglo ordenado:");
+        mostrar.showMessage("Arreglo de Personas Ordenado:");
 
         mb.printArray(personas);
 

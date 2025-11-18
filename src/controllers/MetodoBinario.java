@@ -84,7 +84,7 @@ public class MetodoBinario {
 
     public void Array(Persona[] people) {
         for (int i = 0; i < people.length; i++) {
-            System.out.print(people[i].getAge() + " |");
+            System.out.print(people[i].getAge() + "|");
         }
         System.out.println();
     }
